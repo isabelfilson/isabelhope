@@ -1,53 +1,35 @@
-body {
-    color: cornflowerblue;
-    font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
-    background-color: lavender;
-    text-align: center;
-    overflow-x: hidden;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my webpage</title>
+    <style>
+        body {
+            color: cornflowerblue;
+            font-family: sans-serif;
+            background-color: lavender;
+            text-align: center;
+            overflow-x: hidden;
+        }
 
-.bugs {
-    font-size: 26px;
-    margin: 20px 0;
-    white-space: nowrap;
-    display: inline-block;
-    animation: crawl 10s linear infinite, sparkle 2s ease-in-out infinite;
-}
+        .bugs {
+            font-size: 24px;
+            margin: 20px 0;
+            white-space: nowrap;
+            display: inline-block;
+            animation: crawl 10s linear infinite;
+        }
 
-/* Sparkly cute text */
-h2, p {
-    color: #ff7eb9;
-    text-shadow:
-        0 0 5px #fff,
-        0 0 10px #ffd1dc,
-        0 0 20px #ffb3d9;
-    animation: sparkle 2s ease-in-out infinite;
-}
+       
+    </style>
+</head>
+<body>
 
-/* Sparkle animation */
-@keyframes sparkle {
-    0%, 100% {
-        text-shadow:
-            0 0 5px #fff,
-            0 0 10px #ffd1dc,
-            0 0 20px #ffb3d9;
-        transform: scale(1);
-    }
-    50% {
-        text-shadow:
-            0 0 10px #fff,
-            0 0 20px #ffe6f0,
-            0 0 30px #ff9acb;
-        transform: scale(1.03);
-    }
-}
+<div class="bugs">🐛 🩷 🐀 🐦‍⬛ 🐛 🩷 🐀 🐦‍⬛ 🐛 🩷 🐀 🐦‍⬛</div>
 
-/* Crawl animation */
-@keyframes crawl {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100vw);
-    }
-}
+<h2>🐛 🩷 🐀 🐦‍⬛ check it out 🐛 🩷 🐀 🐦‍⬛</h2>
+<p>🐛 🩷 🐀 🐦‍⬛ welcome to my webpage :) 🐛 🩷 🐀 🐦‍⬛</p>
+
+<div class="bugs">🐛  🐀 🐦‍⬛ 🐛 🩷 🐀 🐦‍⬛ 🐛</div>
+
+</body>
+</html>
